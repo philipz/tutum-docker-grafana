@@ -1,5 +1,5 @@
 FROM tutum/nginx
-MAINTAINER Feng Honglin <hfeng@tutum.co>
+MAINTAINER Philipz <philipzheng@gmail.com>
 
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y wget pwgen apache2-utils
